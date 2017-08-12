@@ -1,0 +1,6 @@
+steps\MySteps.class
+features\RunFeatures.class
+steps\DriverFactory.class
+steps\LogInPage.class
+steps\searchResultPage.class
+steps\MainPage.class

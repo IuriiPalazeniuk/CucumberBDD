@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4202874306,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "LogIn and add goods",
+        "description": "",
+        "id": "rozetka-cart;login-and-add-goods",
+        "after": [
+          {
+            "result": {
+              "duration": 2073999019,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MySteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8312513947,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the page",
+            "match": {
+              "location": "MySteps.iAmOnThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566127769,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username as \"10rubliv@gmail.com\" and password \"Windows123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10rubliv@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Windows123456",
+                  "offset": 55
+                }
+              ],
+              "location": "MySteps.i_enter_username_as_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118904706,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press submit button",
+            "match": {
+              "location": "MySteps.i_press_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47231553134,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I write to the search field \"iphone 7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone 7",
+                  "offset": 29
+                }
+              ],
+              "location": "MySteps.i_write_to_the_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5272092306,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on first link",
+            "match": {
+              "location": "MySteps.i_click_on_first_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10032696063,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id\u003d\u0027detail_buy_label\u0027]/div[5]/div[1]/div/form/span/span/button\"}\n  (Session info: chrome\u003d60.0.3112.90)\n  (Driver info: chromedriver\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform\u003dWindows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10.02 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027EPUAVINW0135\u0027, ip: \u002710.24.13.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir\u003dC:\\Users\\IURII_~1\\AppData\\Local\\Temp\\scoped_dir8932_16636}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d60.0.3112.90, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: ddff0498fbf33bf678fcba739a3b6a08\n*** Element info: {Using\u003dxpath, value\u003d.//*[@id\u003d\u0027detail_buy_label\u0027]/div[5]/div[1]/div/form/span/span/button}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat steps.searchResultPage.addProductToCart(searchResultPage.java:19)\r\n\tat steps.MySteps.i_add_phone_to_the_cart(MySteps.java:54)\r\n\tat ✽.And I add phone to the cart(addToCart.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I add phone to the cart",
+            "match": {
+              "location": "MySteps.i_add_phone_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I check inscription added phone",
+            "match": {
+              "location": "MySteps.i_check_inscription_added_phone()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rozetka cart",
+    "description": "",
+    "id": "rozetka-cart",
+    "keyword": "Feature",
+    "uri": "addToCart.feature"
+  }
+]
