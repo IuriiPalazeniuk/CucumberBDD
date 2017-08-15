@@ -14,11 +14,4 @@ public class DriverFactory {
         this.driver = driver;
     }
 
-    private void creatNewDriver(){
-    ChromeDriverManager.getInstance().setup();
-    driver = new ChromeDriver();
-    }
-
-
-
 }
