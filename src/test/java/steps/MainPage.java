@@ -17,5 +17,6 @@ public class MainPage extends DriverFactory{
         driver.findElement(By.xpath(searchField)).sendKeys(arg1);
         driver.findElement(By.xpath(popUpWindow)).click();
         driver.findElement(By.xpath(search)).click();
+        System.out.println("Search products");
     }
 }
