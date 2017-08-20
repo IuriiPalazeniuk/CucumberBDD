@@ -1,5 +1,6 @@
 package steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -58,12 +59,14 @@ public class MySteps {
     public void i_check_inscription_added_phone(){
         Assert.assertTrue(new searchResultPage(driver).isElementPresent());
     }
+    @And("^I remove phone from the cart$")
+    public void iRemovePhoneFromTheCart(){
+        new searchResultPage(driver).removePhone();
+    }
 
     @After
     public void afterScenario(){
         driver.close();
     }
-
-
 
 }

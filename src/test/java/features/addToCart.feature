@@ -8,3 +8,4 @@ Feature:Rozetka cart
     And I click on first link
     And I add phone to the cart
     Then I check inscription added phone
+    And I remove phone from the cart
